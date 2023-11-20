@@ -1,0 +1,86 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a black background to the body */
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+/* Style the search form */
+#search-form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#search-input {
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    width: 300px;
+    font-size: 16px;
+    outline: none;
+}
+
+button {
+    background-color: #e50914; /* Netflix red */
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ff0000; /* Darker red on hover */
+}
+
+/* Style the search results section */
+#search-results {
+    margin-top: 20px;
+    padding: 20px;
+    border-top: 1px solid #555;
+}
+
+/* Customize other elements as needed for your specific content */
+
+/* Add this to your existing CSS or create a new CSS file */
+.search-results {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #141414; /* Dark background color */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: white; /* Text color */
+}
+
+.search-result-item {
+    margin-bottom: 10px;
+}
+
+.search-result-item h3 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.search-result-item p {
+    font-size: 14px;
+    margin: 5px 0;
+}

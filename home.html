@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Webpage</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inclusive+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="navbar-container">
+        <div class="logo-container"><h1 class="logo">CHITRAKSHA</h1></div>
+        <div class="menu-container">
+          <ul class="menu-list">
+            <li class="menu-list-item">HOME</li>
+            <li class="menu-list-item"><a href="movies.html">MOVIES</a></li>
+            <li class="menu-list-item"><a href="profile.html">WATCHLIST</a></li>
+          </ul>
+        </div>
+        <div class="profile-container">
+          <a href="profile.html"
+            ><img src="/tommy.jpg" alt="" class="profile-picture"
+          /></a>
+          <div class="profile-text-container">
+            <span class="profile-text">profile</span>
+            <a href="profile.html"
+              ><i class="fa-solid fa-caret-down downarrow"></i
+            ></a>
+          </div>
+          <div class="toggle">
+            <i class="fa-solid fa-moon toggle-icon"></i>
+            <i class="fa-solid fa-sun toggle-icon"></i>
+            <div class="toggle-ball"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="sidebar">
+      <a href="search.html"
+        ><i class="left-icon-menu fa-solid fa-magnifying-glass"></i
+      ></a>
+      <i id="home-icon" class="left-icon-menu fa-solid fa-house"></i>
+      <a href="profile.html"><i class="left-icon-menu fa-solid fa-user"></i></a>
+      <i class="left-icon-menu fa-solid fa-bookmark"></i>
+      <i class="left-icon-menu fa-solid fa-tv"></i>
+      <i class="left-icon-menu fa-solid fa-hourglass-start"></i>
+      <i class="left-icon-menu fa-solid fa-cart-shopping"></i>
+    </div>
+    <div class="container">
+      <div class="content-container">
+        <div
+          class="featured-content"
+          style="
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #151515),
+              url('backpic.png');
+          "
+        >
+          <img
+            class="featured-title"
+            src="featuredmovie1.jpg"
+            alt="inception"
+          />
+          <p class="movie-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+            deserunt accusantium qui, sint quia tempora eaque veritatis
+            repudiandae sapiente omnis animi similique incidunt labore laborum
+            quae earum laboriosam velit eligendi!
+          </p>
+          <button class="featured-button">WATCH</button>
+        </div>
+        <div class="movie-list-container">
+          <h1 class="movie-list-title">NEW RELEASES</h1>
+          <div class="movie-list-wrapper">
+            <div class="movie-list">
+              <div class="movie-list-items">
+                <img class="movie-list-item-image" src="dune.webp" alt="**" />
+                <span class="movie-list-item-title">DUNE</span>
+                <p class="movie-list-item-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aspernatur qui tempore atque ea vel eum, inventore illo
+                  dignissimos earum, voluptates neque ab modi, omnis incidunt
+                  voluptatem? Blanditiis repudiandae quia necessitatibus.
+                </p>
+                <button class="movie-list-item-button">WATCH</button>
+              </div>
+              <div class="movie-list-items">
+                <img
+                  class="movie-list-item-image"
+                  src="oppenheimer.webp"
+                  alt="**"
+                />
+                <span class="movie-list-item-title">OPPENHEIMER</span>
+                <p class="movie-list-item-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aspernatur qui tempore atque ea vel eum, inventore illo
+                  dignissimos earum, voluptates neque ab modi, omnis incidunt
+                  voluptatem? Blanditiis repudiandae quia necessitatibus.
+                </p>
+                <button class="movie-list-item-button">WATCH</button>
+              </div>
+              <div class="movie-list-items">
+                <img
+                  class="movie-list-item-image"
+                  src="uncharted.webp"
+                  alt="**"
+                />
+                <span class="movie-list-item-title">UNCHARTED</span>
+                <p class="movie-list-item-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aspernatur qui tempore atque ea vel eum, inventore illo
+                  dignissimos earum, voluptates neque ab modi, omnis incidunt
+                  voluptatem? Blanditiis repudiandae quia necessitatibus.
+                </p>
+                <button class="movie-list-item-button">WATCH</button>
+              </div>
+              <div class="movie-list-items">
+                <img class="movie-list-item-image" src="movie1.webp" alt="**" />
+                <span class="movie-list-item-title">helicopter</span>
+                <p class="movie-list-item-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aspernatur qui tempore atque ea vel eum, inventore illo
+                  dignissimos earum, voluptates neque ab modi, omnis incidunt
+                  voluptatem? Blanditiis repudiandae quia necessitatibus.
+                </p>
+                <button class="movie-list-item-button">WATCH</button>
+              </div>
+              <div class="movie-list-items">
+                <img class="movie-list-item-image" src="movie2.webp" alt="**" />
+                <span class="movie-list-item-title">helicopter</span>
+                <p class="movie-list-item-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aspernatur qui tempore atque ea vel eum, inventore illo
+                  dignissimos earum, voluptates neque ab modi, omnis incidunt
+                  voluptatem? Blanditiis repudiandae quia necessitatibus.
+                </p>
+                <button class="movie-list-item-button">WATCH</button>
+              </div>
+              <div class="movie-list-items">
+                <img class="movie-list-item-image" src="movie3.webp" alt="**" />
+                <span class="movie-list-item-title">helicopter</span>
+                <p class="movie-list-item-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aspernatur qui tempore atque ea vel eum, inventore illo
+                  dignissimos earum, voluptates neque ab modi, omnis incidunt
+                  voluptatem? Blanditiis repudiandae quia necessitatibus.
+                </p>
+                <button class="movie-list-item-button">WATCH</button>
+              </div>
+              <div class="movie-list-items">
+                <img class="movie-list-item-image" src="movie4.webp" alt="**" />
+                <span class="movie-list-item-title">helicopter</span>
+                <p class="movie-list-item-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aspernatur qui tempore atque ea vel eum, inventore illo
+                  dignissimos earum, voluptates neque ab modi, omnis incidunt
+                  voluptatem? Blanditiis repudiandae quia necessitatibus.
+                </p>
+                <button class="movie-list-item-button">WATCH</button>
+              </div>
+            </div>
+            <i class="fa-solid fa-chevron-right arrow"></i>
+          </div>
+        </div>
+        <div class="movie-list-container">
+          <h1 class="movie-list-title">POPULAR</h1>
+          <div class="movie-list-wrapper">
+            <div class="movie-list">
+              <div class="movie-list-items">
+                <img
+                  class="movie-list-item-image"
+                  src="avengers.webp"
+                  alt="**"
+                />
+                <span class="movie-list-item-title">AVENGERS</span>
+                <p class="movie-list-item-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aspernatur qui tempore atque ea vel eum, inventore illo
+                  dignissimos earum, voluptates neque ab modi, omnis incidunt
+                  voluptatem? Blanditiis repudiandae quia necessitatibus.
+                </p>
+                <button class="movie-list-item-button">WATCH</button>
+              </div>
+              <div class="movie-list-items">
+                <img
+                  class="movie-list-item-image"
+                  src="ironman.webp"
+                  alt="**"
+                />
+                <span class="movie-list-item-title">IRON MAN</span>
+                <p class="movie-list-item-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aspernatur qui tempore atque ea vel eum, inventore illo
+                  dignissimos earum, voluptates neque ab modi, omnis incidunt
+                  voluptatem? Blanditiis repudiandae quia necessitatibus.
+                </p>
+                <button class="movie-list-item-button">WATCH</button>
+              </div>
+              <div class="movie-list-items">
+                <img class="movie-list-item-image" src="thor.webp" alt="**" />
+                <span class="movie-list-item-title">DARK WORLD</span>
+                <p class="movie-list-item-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aspernatur qui tempore atque ea vel eum, inventore illo
+                  dignissimos earum, voluptates neque ab modi, omnis incidunt
+                  voluptatem? Blanditiis repudiandae quia necessitatibus.
+                </p>
+                <button class="movie-list-item-button">WATCH</button>
+              </div>
+              <div class="movie-list-items">
+                <img class="movie-list-item-image" src="thor2.webp" alt="**" />
+                <span class="movie-list-item-title">THOR</span>
+                <p class="movie-list-item-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aspernatur qui tempore atque ea vel eum, inventore illo
+                  dignissimos earum, voluptates neque ab modi, omnis incidunt
+                  voluptatem? Blanditiis repudiandae quia necessitatibus.
+                </p>
+                <button class="movie-list-item-button">WATCH</button>
+              </div>
+              <div class="movie-list-items">
+                <img
+                  class="movie-list-item-image"
+                  src="captainmarvel"
+                  alt="**"
+                />
+                <span class="movie-list-item-title">CAPTIAN MARVEL</span>
+                <p class="movie-list-item-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aspernatur qui tempore atque ea vel eum, inventore illo
+                  dignissimos earum, voluptates neque ab modi, omnis incidunt
+                  voluptatem? Blanditiis repudiandae quia necessitatibus.
+                </p>
+                <button class="movie-list-item-button">WATCH</button>
+              </div>
+              <div class="movie-list-items">
+                <img
+                  class="movie-list-item-image"
+                  src="captainamerica"
+                  alt="**"
+                />
+                <span class="movie-list-item-title">CAPTAIN AMERICA</span>
+                <p class="movie-list-item-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aspernatur qui tempore atque ea vel eum, inventore illo
+                  dignissimos earum, voluptates neque ab modi, omnis incidunt
+                  voluptatem? Blanditiis repudiandae quia necessitatibus.
+                </p>
+                <button class="movie-list-item-button">WATCH</button>
+              </div>
+              <div class="movie-list-items">
+                <img class="movie-list-item-image" src="loki.webp" alt="**" />
+                <span class="movie-list-item-title">LOKI</span>
+                <p class="movie-list-item-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aspernatur qui tempore atque ea vel eum, inventore illo
+                  dignissimos earum, voluptates neque ab modi, omnis incidunt
+                  voluptatem? Blanditiis repudiandae quia necessitatibus.
+                </p>
+                <button class="movie-list-item-button">WATCH</button>
+              </div>
+            </div>
+            <i class="fa-solid fa-chevron-right arrow"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <video id="video-player" controls style="display: none"></video>
+    <script src="app.js"></script>
+  </body>
+</html>

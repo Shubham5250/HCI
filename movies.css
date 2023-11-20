@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+}
+.body{
+    background-color: black;
+    min-height: 100vh;
+}
+.watchlist-img{
+    height: 200px;
+    flex: content;
+    cursor: pointer;
+    position: relative;
+}
+
+.movie-title{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    align-items: baseline;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.movie-list-container{
+    padding: 0 20px;
+    position: relative;
+}
+
+.movie-list-wrapper{
+    position: relative;
+    overflow: hidden;
+}
+
+.movie-list-title{
+    width: 500px;
+    height: 50px;
+    object-fit: cover;
+    font-family: sans-serif;
+    color: rgb(37, 242, 37);
+    padding-top: 10px;
+}
+
+.movie-list{
+    display: flex;
+    align-items: center;
+    height: 300px;
+    transform: translateX(0);
+    transition: all 1s ease-in-out;
+}
+
+
+.movie-list-items{
+    margin-right: 25px;
+    position: relative;
+}
+
+.movie-list-item-image{
+    width: 320px;
+    height: 240px;
+    object-fit: cover;
+    transition: all 1s ease-in-out;
+    border-radius: 5px;
+}
+
+.movie-list-items:hover .movie-list-item-image{
+    transform: scale(1.2);
+    margin:0 30px;
+    opacity: 0.5;
+}
+
+.movie-list-item-title{
+    padding: 0 10px;
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    top: 10%;
+    left: 50px  ;
+    opacity: 0;
+    transition: all 1s ease-in-out;
+}
+
+.movie-list-items:hover .movie-list-item-title{
+    opacity: 1;
+}
+
+
+.movie-list-item-description{
+    padding: 10px;
+    font-size: 11px;
+    font-weight: bold;
+    position: absolute;
+    top: 30%;
+    left: 40px  ;
+    width: 250px;
+    opacity: 0;
+    transition: all 1s ease-in-out;
+}
+
+.movie-list-items:hover .movie-list-item-description{
+    opacity: 1;
+}
+
+.movie-list-item-button{
+    padding: 10px;
+    background-color: rgb(154, 251, 9);
+    color: black;
+    font-weight: bolder;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+    opacity: 0;
+    transition: all 1s ease-in-out;
+}
+
+.movie-list-items:hover .movie-list-item-button{
+    opacity: 1;
+}
+
+.arrow{
+    font-size: 50px;
+    position: absolute;
+    top: 90px;
+    right: 0;
+    color: lightgrey;
+    opacity: 0.5;
+}
+
+.movie-description-1{
+    width: 500px;
+    color: whitesmoke;
+    margin-top: 150px ;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
